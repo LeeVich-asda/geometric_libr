@@ -24,3 +24,6 @@ jobs:
     
     - name: Run unit tests
       run: python -m unittest test_geometric.py
+
+    - name: Test completion message
+      run: echo "test been ran"
